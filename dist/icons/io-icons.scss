@@ -1,0 +1,12 @@
+.io-icon {
+	--default: #000;
+
+	--width: 24px;
+	--height: 24px;
+
+	width: var(--width);
+	height: var(--height);
+	mask-repeat: no-repeat;
+	mask-position: center center;
+	background-color: var(--default);
+}

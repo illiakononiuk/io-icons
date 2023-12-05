@@ -1,0 +1,20 @@
+{
+	"name": "io-icons",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.ts",
+	"scripts": {
+		"build": "node app.ts"
+	},
+	"author": "iokononyuk",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^9.0.0",
+		"typescript": "^5.3.2"
+	},
+	"devDependencies": {
+		"@types/node-sass": "^4.11.7",
+		"nodemon": "^3.0.2",
+		"ts-node": "^10.9.1"
+	}
+}
