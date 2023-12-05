@@ -34,7 +34,7 @@ const generateIconsScss = async () => {
 		const icons = await readdirSync(join(iconsPath, folder));
 		icons.forEach((icon) => {
 			const [iconName, ext] = icon.split(".");
-			iconsCss += `.io-icon.${iconName} { mask-image: url("../icons/${icon}"); }\r\n`;
+			iconsCss += `.io-icon.${iconName} { mask-image: url("../icons/${folder}/${icon}"); }\r\n`;
 		});
 	}
 
